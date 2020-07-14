@@ -1,0 +1,21 @@
+login:
+  handler: src/api/Auth/Controllers/AuthController.login
+  events:
+    - http:
+        path: login_user
+        method: post
+        cors: true
+signUp:
+  handler: src/api/Auth/Controllers/AuthController.signUp
+  events:
+    - http:
+        path: signup_user
+        method: post
+        cors: true
+sendMail:
+  handler: src/api/Auth/Controllers/AuthController.sendMail
+  events:
+    - http:
+        path: send_mail
+        method: get
+        cors: true

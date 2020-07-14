@@ -1,0 +1,35 @@
+createOrganization:
+  handler: src/api/Organization/Controllers/OrganizationController.createOrganization
+  events:
+    - http:
+        path: create_Organization
+        method: post
+        cors: true
+getOrganizations:
+  handler: src/api/Organization/Controllers/OrganizationController.getOrganizations
+  events:
+    - http:
+        path: get_Organizations
+        method: get
+        cors: true
+getOrganization:
+  handler: src/api/Organization/Controllers/OrganizationController.getOrganization
+  events:
+    - http:
+        path: get_Organization
+        method: get
+        cors: true
+updateOrganization:
+  handler: src/api/Organization/Controllers/OrganizationController.updateOrganization
+  events:
+    - http:
+        path: update_Organization
+        method: patch
+        cors: true
+deleteOrganization:
+  handler: src/api/Organization/Controllers/OrganizationController.deleteOrganization
+  events:
+    - http:
+        path: delete_Organization
+        method: delete
+        cors: true

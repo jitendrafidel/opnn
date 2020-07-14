@@ -1,0 +1,45 @@
+.padr-0 {
+  padding-right: 0;
+}
+.googlebutton {
+  width: inherit !important;
+}
+.custom-color {
+  background: radial-gradient(
+    195.29% 195.35% at 50.34% 110.94%,
+    rgba(230, 53, 201, 0.9) 0%,
+    rgba(255, 139, 0, 0.9) 89.03%
+  );
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+div form {
+  p {
+    color: #8a7281;
+  }
+  h3 {
+    color: #72425f;
+  }
+  .cus-button {
+    background: #20a7f3 !important;
+    color: white !important;
+    font-size: 16px !important;
+    border: 1px solid #0090cd !important;
+  }
+}
+form {
+  padding: 30px;
+}
+
+.error {
+  text-align: center;
+  color: #f1399f;
+  padding: 0 !important;
+}
+
+.img-responsive1 {
+  width: 225px;
+  height: auto;
+}
